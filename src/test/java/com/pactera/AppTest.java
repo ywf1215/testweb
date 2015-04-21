@@ -11,7 +11,7 @@ public class AppTest extends TestCase {
 	
 	public void testAdd1() {
 		int c = App.add(1, 6);
-		assertEquals(c, 8);
+		assertEquals(c, 7);
 	}
 
 }
