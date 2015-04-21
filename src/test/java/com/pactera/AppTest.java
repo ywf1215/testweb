@@ -8,5 +8,10 @@ public class AppTest extends TestCase {
 		int c = App.add(1, 6);
 		assertEquals(c, 7);
 	}
+	
+	public void testAdd1() {
+		int c = App.add(1, 6);
+		assertEquals(c, 8);
+	}
 
 }
