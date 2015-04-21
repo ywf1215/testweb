@@ -86,7 +86,13 @@
 				<version>2.7</version>
 				<configuration>
 					<encoding>UTF-8</encoding>
+					<instrumentation>
+						<excludes>
+							<exclude>*/*Test.class</exclude>
+						</excludes>
+					</instrumentation>
 					<formats>
+						<format>html</format>
 						<format>xml</format>
 					</formats>
 				</configuration>
