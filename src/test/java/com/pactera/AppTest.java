@@ -1,6 +1,12 @@
 package com.pactera;
 
-@Test
-public class AppTest {
+import junit.framework.TestCase;
+
+public class AppTest extends TestCase {
+	
+	public void addTest() {
+		int c = App.add(1, 6);
+		assertEquals(c, 7);
+	}
 
 }
