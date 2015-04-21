@@ -86,14 +86,10 @@
 				<version>2.7</version>
 				<configuration>
 					<encoding>UTF-8</encoding>
+					<formats>
+						<<format>xml</format>
+					</formats>
 				</configuration>
-				<reportSets>
-					<reportSet>
-						<reports>
-							<report>codehaus</report>
-						</reports>
-					</reportSet>
-				</reportSets>
 			</plugin>
 		</plugins>
 	</reporting>
